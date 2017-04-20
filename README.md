@@ -1,24 +1,16 @@
-# README
+# MyProfile Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This site was created to display information about me and to showcase my development projects I've had the pleasure of working on. This site was created using:
 
-Things you may want to cover:
+* Ruby '2.3.1'
 
-* Ruby version
+* Ruby on Rails '5.0.2'
 
-* System dependencies
+* Bootstrap-SASS '3.3.6' 
 
-* Configuration
+* PostgreSQL '9.6.2'
 
-* Database creation
+It is deployed using:
 
-* Database initialization
+* Heroku
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
