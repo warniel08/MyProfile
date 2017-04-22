@@ -1,3 +1,7 @@
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 source 'https://rubygems.org'
 
 git_source(:github) do |repo_name|
@@ -5,11 +9,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 gem 'rails', '~> 5.0.2'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.0'
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
