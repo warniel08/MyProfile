@@ -19,9 +19,9 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'paperclip'
 gem 'aws-sdk', '~> 2.3'
-gem 'dotenv'
 
 group :development, :test do
+	gem 'dotenv-rails'
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
 end
