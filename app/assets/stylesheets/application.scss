@@ -24,8 +24,17 @@ img {
 	width: 100%;
 }
 
+.section-content {
+    padding: 5rem 0;
+}
+
+#proj-content {
+    padding: 0;
+    padding-bottom: 5rem;
+}
+
 #about {
-    background: url('https://static.pexels.com/photos/12057/pexels-photo-12057.jpeg') center center no-repeat;
+    background: url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/outdoors.jpg') center center no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -35,4 +44,32 @@ img {
     background: rgba(0,0,0,0.8);
     color: white;
     padding: 1.875rem;
+}
+
+.project-card {
+    border-color: black;
+}
+
+.btn-project {
+    color: #292B2C;
+    padding-bottom: 10px;
+}
+
+.proj-nav-btn {
+    margin-bottom: 10px;
+}
+
+#proj-caption {
+    width: 100%;
+    padding-top: 5rem;
+}
+
+#proj-about {
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+#proj-resume {
+    margin-top: 20px;
+    margin-bottom: 7px;
 }
