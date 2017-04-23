@@ -23,3 +23,16 @@ img {
 #cover-caption {
 	width: 100%;
 }
+
+#about {
+    background: url('https://static.pexels.com/photos/12057/pexels-photo-12057.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
