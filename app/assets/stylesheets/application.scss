@@ -2,74 +2,88 @@
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 
 #cover {
-    background: #222 url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/MilkyWay.jpg') center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
+  background: #222 url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/MilkyWay.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 #cover-caption {
-	width: 100%;
+width: 100%;
 }
 
 .section-content {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
 #proj-content {
-    padding: 0;
-    padding-bottom: 5rem;
+  padding: 0;
+  // padding-bottom: 5rem;
 }
 
 #about {
-    background: url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/outdoors.jpg') center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+  background: url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/outdoors.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .about-text {
-    background: rgba(0,0,0,0.8);
-    color: white;
-    padding: 1.875rem;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 1.875rem;
 }
 
 .project-card {
-    border-color: black;
+  border-color: black;
 }
 
 .btn-project {
-    color: #292B2C;
-    padding-bottom: 10px;
+  color: #292B2C;
+  padding-bottom: 10px;
 }
 
 .proj-nav-btn {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 #proj-caption {
-    width: 100%;
-    padding-top: 5rem;
+  width: 100%;
+  padding-top: 5rem;
 }
 
 #proj-about {
-    text-align: center;
-    margin-bottom: 7px;
+  text-align: center;
+  margin-bottom: 7px;
 }
 
-#proj-resume {
-    margin-top: 20px;
-    margin-bottom: 7px;
+#resume-caption {
+  width: 100%;
+  padding-top: 5rem;
+}
+
+#resume-content {
+  padding: 0;
+  padding-bottom: 5rem;
+}
+
+#resume-about {
+  text-align: center;
+  margin-bottom: 7px; 
+}
+
+#resume-btn {
+  margin-bottom: 20px;
 }
