@@ -28,11 +28,6 @@ width: 100%;
   padding: 5rem 0;
 }
 
-// #proj-content {
-//   padding: 0;
-//   // padding-bottom: 5rem;
-// }
-
 #about {
   background: url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/outdoors.jpg') center center no-repeat;
   background-size: cover;
@@ -47,11 +42,13 @@ width: 100%;
 }
 
 .project-card {
-  border-color: black;
+  background-color: #333; 
+  border-color: #BAB8B9;
+  opacity: 0.8;
 }
 
 .btn-project {
-  color: #292B2C;
+  color: #BAB8B9;
   padding-bottom: 10px;
 }
 
@@ -95,36 +92,3 @@ hr{
 #contact-title {
   color: white;
 }
-
-// .proj-nav-btn {
-//   margin-bottom: 10px;
-// }
-
-// #proj-caption {
-//   width: 100%;
-//   padding-top: 5rem;
-// }
-
-// #proj-about {
-//   text-align: center;
-//   margin-bottom: 7px;
-// }
-
-// #resume-caption {
-//   width: 100%;
-//   padding-top: 5rem;
-// }
-
-// #resume-content {
-//   padding: 0;
-//   padding-bottom: 5rem;
-// }
-
-// #resume-about {
-//   text-align: center;
-//   margin-bottom: 7px; 
-// }
-
-// #resume-btn {
-//   margin-bottom: 20px;
-// }
