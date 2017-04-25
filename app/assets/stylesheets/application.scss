@@ -79,6 +79,7 @@ width: 100%;
 
 hr{
   border: 1px solid white;
+  opacity: 0.8;
 }
 
 #projects-hr {
@@ -87,8 +88,28 @@ hr{
 
 #resume-title {
   color: white;
+  opacity: 0.9;
 }
 
 #contact-title {
   color: white;
+  opacity: 0.9;
+}
+
+.contact-link:link {
+  text-decoration: none;
+  color: #434341;
+}
+
+.contact-link:hover {
+  color: #434341;
+  text-decoration: underline;
+}
+
+.contact-link:visited {
+  color: #434341;
+}
+
+.contact-link:active {
+  color: #434341;
 }
