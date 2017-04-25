@@ -72,8 +72,12 @@ width: 100%;
 #resume {
   background: url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/computer-on-desk.jpg') center center no-repeat;
   background-size: cover;
-  height: 100%;
+  height: 120%;
   width: 100%;
+}
+
+#resume-content {
+  padding-bottom: 20px;
 }
 
 hr{
