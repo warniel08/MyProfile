@@ -19,6 +19,7 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 gem 'paperclip'
 gem 'aws-sdk', '~> 2.3'
+gem 'font-awesome-sass'
 
 group :development, :test do
 	gem 'dotenv-rails'

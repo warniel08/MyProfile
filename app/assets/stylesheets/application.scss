@@ -55,6 +55,47 @@ width: 100%;
   padding-bottom: 10px;
 }
 
+.contact-card-text {
+  margin: 0;
+}
+
+.contact-card-card {
+  border-color: black; 
+  opacity:0.8;
+  margin-bottom: 5px;
+}
+
+#projects {
+  background: url('https://static.pexels.com/photos/273238/pexels-photo-273238.jpeg') center center no-repeat;
+  // color: white;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#resume {
+  background: url('https://static.pexels.com/photos/38892/pexels-photo-38892.jpeg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+hr{
+  border: 1px solid white;
+}
+
+#projects-hr {
+  border: 1px solid black;
+}
+
+#resume-title {
+  color: white;
+}
+
+#contact-title {
+  color: white;
+}
+
 // .proj-nav-btn {
 //   margin-bottom: 10px;
 // }
