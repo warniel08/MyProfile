@@ -2,74 +2,129 @@
 
 html,
 body {
-    height: 100%;
+  height: 100%;
 }
 
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 
 #cover {
-    background: #222 url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/MilkyWay.jpg') center center no-repeat;
-    background-size: cover;
-    color: white;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
+  background: #222 url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/MilkyWay.jpg') center center no-repeat;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
 }
 
 #cover-caption {
-	width: 100%;
+width: 100%;
 }
 
 .section-content {
-    padding: 5rem 0;
+  padding: 5rem 0;
 }
 
-#proj-content {
-    padding: 0;
-    padding-bottom: 5rem;
-}
+// #proj-content {
+//   padding: 0;
+//   // padding-bottom: 5rem;
+// }
 
 #about {
-    background: url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/outdoors.jpg') center center no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+  background: url('https://s3-us-west-2.amazonaws.com/warner-profile-app/images/outdoors.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .about-text {
-    background: rgba(0,0,0,0.8);
-    color: white;
-    padding: 1.875rem;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  padding: 1.875rem;
 }
 
 .project-card {
-    border-color: black;
+  border-color: black;
 }
 
 .btn-project {
-    color: #292B2C;
-    padding-bottom: 10px;
+  color: #292B2C;
+  padding-bottom: 10px;
 }
 
-.proj-nav-btn {
-    margin-bottom: 10px;
+.contact-card-text {
+  margin: 0;
 }
 
-#proj-caption {
-    width: 100%;
-    padding-top: 5rem;
+.contact-card-card {
+  border-color: black; 
+  opacity:0.8;
+  margin-bottom: 5px;
 }
 
-#proj-about {
-    text-align: center;
-    margin-bottom: 7px;
+#projects {
+  background: url('https://static.pexels.com/photos/273238/pexels-photo-273238.jpeg') center center no-repeat;
+  // color: white;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
 
-#proj-resume {
-    margin-top: 20px;
-    margin-bottom: 7px;
+#resume {
+  background: url('https://static.pexels.com/photos/38892/pexels-photo-38892.jpeg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
 }
+
+hr{
+  border: 1px solid white;
+}
+
+#projects-hr {
+  border: 1px solid black;
+}
+
+#resume-title {
+  color: white;
+}
+
+#contact-title {
+  color: white;
+}
+
+// .proj-nav-btn {
+//   margin-bottom: 10px;
+// }
+
+// #proj-caption {
+//   width: 100%;
+//   padding-top: 5rem;
+// }
+
+// #proj-about {
+//   text-align: center;
+//   margin-bottom: 7px;
+// }
+
+// #resume-caption {
+//   width: 100%;
+//   padding-top: 5rem;
+// }
+
+// #resume-content {
+//   padding: 0;
+//   padding-bottom: 5rem;
+// }
+
+// #resume-about {
+//   text-align: center;
+//   margin-bottom: 7px; 
+// }
+
+// #resume-btn {
+//   margin-bottom: 20px;
+// }
