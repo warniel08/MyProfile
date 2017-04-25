@@ -42,11 +42,14 @@ width: 100%;
 }
 
 .project-card {
-  border-color: black;
+  background-color: #333; 
+  border-color: #BAB8B9;
+  opacity: 0.8;
 }
 
 .btn-project {
-  color: #292B2C;
+  color: white;
+  // color: ;
   padding-bottom: 10px;
 }
 
