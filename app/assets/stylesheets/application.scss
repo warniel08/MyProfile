@@ -47,8 +47,19 @@ width: 100%;
   opacity: 0.8;
 }
 
+.card-subtitle {
+  margin-bottom: 15px;
+}
+
+.list-group-item {
+  background-color: #333; 
+  border-color: #BAB8B9;
+  opacity: 0.8; 
+}
+
 .btn-project {
   color: #BAB8B9;
+  margin-top: 20px;
   padding-bottom: 10px;
 }
 
