@@ -10,16 +10,17 @@ git_source(:github) do |repo_name|
 end
 
 gem 'rails', '~> 5.0.2'
-gem 'pg', '~> 0.18'
-gem 'puma', '~> 3.0'
-gem 'bootstrap', '~> 4.0.0.alpha5'
-gem 'sass-rails', '~> 5.0'
+gem 'pg', '>= 0.18'
+gem 'puma', '>= 3.0'
+gem 'bootstrap', '>= 4.0.0.alpha5'
+gem 'sass-rails', '>= 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
-gem 'jbuilder', '~> 2.5'
-gem 'paperclip'
-gem 'aws-sdk', '~> 2.3'
+gem 'jbuilder', '>= 2.5'
+gem 'paperclip', '>= 5'
+gem 'aws-sdk', '>= 2.3'
 gem 'font-awesome-sass'
+gem 'nokogiri', '>= 1.7'
 
 group :development, :test do
 	gem 'dotenv-rails'
